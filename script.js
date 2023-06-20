@@ -11,6 +11,9 @@ const poundToKilo = 0.45
 num.addEventListener("click",()=>{
     num.value = ""
 })
+num.addEventListener("blur",()=>{
+    num.value = 0
+})
 num.addEventListener("input",()=>{
     length.textContent = 
     `${num.value} meters = ${(num.value*meterToFeet).toFixed(3)} feet | ${num.value} feet = 
