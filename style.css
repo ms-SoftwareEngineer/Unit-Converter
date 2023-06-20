@@ -27,12 +27,15 @@ body{
 header{
     text-align: center;
     background: var(--header-bg);
-    width: 40%;
-    height: 10.5rem;
+    width: 30%;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 0.5rem solid var(--text-color);
+    border-bottom: none;
+    border-radius: 0.5rem 0.5rem 0 0;    
 }
 
 input::-webkit-outer-spin-button,
@@ -46,8 +49,40 @@ input::-webkit-inner-spin-button{
     border: none;
     appearance: textfield;
     -moz-appearance: textfield;
+    font-size: 5.8rem;
+    color: var(--text-color);
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    font-family: var(--font);
 }
 
+header h1{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
 main{
-    width: 40%;
+    width: 30%;
+    background: var(--main-bg);
+    height: 25rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5rem solid var(--text-color);
+    border-top:none;
+    border-radius: 0 0 0.5rem 0.5rem; 
+}
+
+article h2{
+    font-size:1.1rem;
+}
+
+article p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 50%;
 }
