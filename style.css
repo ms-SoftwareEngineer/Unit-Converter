@@ -86,3 +86,16 @@ article p{
     font-weight: bold;
     opacity: 50%;
 }
+
+@media(max-width:1200px){
+    header,main{
+        width: 25rem;
+        overflow:auto;
+    }
+}
+
+@media(max-width:460px){
+    header,main{
+        width:20rem;
+    }
+}
