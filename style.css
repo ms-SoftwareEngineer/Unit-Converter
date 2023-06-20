@@ -95,7 +95,7 @@ article p{
 }
 
 @media(max-width:460px){
-    header,main{
+    header,main,#num{
         width:20rem;
     }
 }
