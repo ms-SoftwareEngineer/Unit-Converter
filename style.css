@@ -96,6 +96,6 @@ article p{
 
 @media(max-width:460px){
     header,main,#num{
-        width:20rem;
+        width:100%;
     }
 }
